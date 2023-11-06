@@ -15,7 +15,7 @@
 // Textual fields are mapped to blobs and numeric fields to doubles.
 // Edit this to map the fields that are present in your data.
 function processLogEntry(ANALYTICS, data) {
-	ANALYTICS.writeDataPoint({
+	ANALYTICS.writ-eDataPoint({
 		indexes: [data.ClientRequestHost || ""], // Supply one index
 		blobs: [
 			// Supply a maximum of 20 blobs (max total data size 5120 bytes)
